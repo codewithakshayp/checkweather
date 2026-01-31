@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/drizzle.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Weather.app</title>
+  </head>
+  <body>
+    <!-- This is card section all the coding inside here -->
+    <div class="card">
+      <!-- this is search section-1, you type city name here -->
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button><img src="images/search.png" alt="" /></button>
+      </div>
+      <!-- this is search section-2, All the weather information display here -->
+      <div class="weather-box">
+        <img src="images/rain.png" class="weather-icon" />
+        <h1 class="temp">°C</h1>
+        <h2 class="city">Please enter city</h2>
+         <!-- weather information write here -->
+        <div class="details">
+            <!-- this is humidity info section -->
+          <div class="col">
+            <img src="images/humidity.png" alt="" />
+            <div>
+              <p class="humidity"></p>
+              <p>humidity</p>
+            </div>
+          </div>
+          <!-- this is wind info section -->
+          <div class="col">
+            <img src="images/wind.png" alt="" />
+            <div>
+              <p class="wind">km/h</p>
+              <p>wind-speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
