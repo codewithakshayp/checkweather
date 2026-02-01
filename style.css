@@ -111,3 +111,47 @@ body{
     width: 30px;
     margin-right: 10px;
 }
+
+@media (max-width: 476px){
+    body{
+        background: #951515;
+    }
+    .card .search{
+        width: 100%;
+        display: flex;
+    }
+    .search input{
+        width: 50%;
+    }
+}
+@media (max-width: 381px){
+    body{
+        background: #c34b4b;
+    }
+   .details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0 20px;
+    gap: 10px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.search input{
+    width: 100%;
+}
+.search button img{
+    width: 15px;
+}
+.search button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+}
